@@ -87,7 +87,6 @@ Future<void> openUrl(String url) async {
       },
       child: const Text("LinkedIn"),
     ),
-
     const SizedBox(width: 20),
     TextButton(
       onPressed: () {
@@ -95,8 +94,8 @@ Future<void> openUrl(String url) async {
       },
       child: const Text("GitHub"),
     ),
-ElevatedButton.icon(
-  onPressed: () {
+    ElevatedButton.icon(
+      onPressed: () {
     openUrl("assets/resume/AshwiniKaleResume_1.pdf");
   },
   icon: const Icon(Icons.download),
