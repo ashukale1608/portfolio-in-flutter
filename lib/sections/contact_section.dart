@@ -89,7 +89,6 @@ Future<void> openUrl(String url) async {
     ),
 
     const SizedBox(width: 20),
-
     TextButton(
       onPressed: () {
         openUrl("https://github.com/ashukale1608/");
